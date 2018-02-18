@@ -3,15 +3,25 @@
         paddin: 0;
 
 }
+body{
+        background-color: #e2e2e2;
+}
 a:link, a:visited{
         text-decoration: none;
         color: black;
 }
-
+#picture{
+        text-align: center;
+        margin-top: 10vh;
+}
+#photo{
+        width: 500px;
+        height: auto;
+}
 #menu{
         margin: 0;
         text-align: center;
-        margin-top: 70vh;
+        margin-top: 12vh;
 }
 #menu ul{
         margin: 0;
@@ -21,4 +31,5 @@ a:link, a:visited{
 #menu ul li{
         display: inline;
         margin: 15px;
+        font-family: 'Source Code Pro', monospace;
 }
