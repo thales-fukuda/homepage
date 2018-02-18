@@ -1,0 +1,24 @@
+*{
+        margin: 0;
+        paddin: 0;
+
+}
+a:link, a:visited{
+        text-decoration: none;
+        color: black;
+}
+
+#menu{
+        margin: 0;
+        text-align: center;
+        margin-top: 70vh;
+}
+#menu ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;         
+}
+#menu ul li{
+        display: inline;
+        margin: 15px;
+}
