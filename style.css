@@ -10,6 +10,10 @@ a:link, a:visited{
         text-decoration: none;
         color: black;
 }
+a:hover{
+        color: #848484;
+}
+
 #picture{
         text-align: center;
         margin-top: 10vh;
