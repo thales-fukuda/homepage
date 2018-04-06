@@ -17,4 +17,4 @@ The search field has some shortcuts to popular websites.
 Will search "funny videos"on YouTube.
 
 ## to-do
-- Implement customization for the links below and the search shortcuts.
+- Implement customization for the bottom links and the search shortcuts.
