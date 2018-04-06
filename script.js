@@ -11,8 +11,6 @@ search.addEventListener('keypress', (e) => {
         let sub = value.substr(0, 2);
         if(sub[1] === ":"){
             value = value.substr(2, value.length);
-            console.log(value);
-            console.log(sub);
             if(sub[0] === "y") 
                 window.location.href = "https://youtube.com/results?search_query=" + value;
             else if(sub[0] === "f")
