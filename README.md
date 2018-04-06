@@ -1,7 +1,8 @@
 # homepage
 A minimalist and simple site used as my hub.
+http://thalesfukuda.me/homepage/
 
-## shortcuts
+## Shortcuts
 The search field has some shortcuts to popular websites.
 
 - y: YouTube
