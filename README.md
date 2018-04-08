@@ -1,5 +1,5 @@
 # homepage
-A minimalist and simple site used as my hub.
+This startup page is shown every time I open a new tab.
 
 http://thalesfukuda.me/homepage/
 
