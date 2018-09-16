@@ -2,7 +2,7 @@
   "name": "homepage",
   "version": "2.0.0",
   "description": "My startup page.",
-  "main": "index.js",
+  "main": "src/index.html",
   "repository": "https://github.com/thales-fukuda/homepage",
   "author": "Thales <thales@hero99.com.br>",
   "license": "MIT",
