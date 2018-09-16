@@ -1,6 +1,7 @@
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Roboto', sans-serif; }
 
 body {
   display: flex;
@@ -11,6 +12,16 @@ body {
   min-width: 100vw; }
 
 .search-input {
+  width: 800px;
+  text-align: center;
   border: none;
   outline: none;
   font-size: 42px; }
+
+.search-name {
+  position: absolute;
+  bottom: 25vh;
+  opacity: .6;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase; }

@@ -1,7 +1,10 @@
 let searchInput = document.getElementById('search-input');
+let searchName = document.getElementById('search-name');
 let searchTarget = 0;
 
 const handleInit = () => {
+    searchName.style.color = siteList[0].color;
+    searchName.innerText = siteList[0].name;
     searchInput.style.color = siteList[0].color;
     searchInput.focus();
 }
@@ -16,7 +19,9 @@ const handleChangeSearch = () => {
         searchTarget = 0;
         website = siteList[0];
     }
-    console.log(website);   
+
+    searchName.style.color = website.color;
+    searchName.innerText = website.name;
     searchInput.style.color = website.color;
 }
 
