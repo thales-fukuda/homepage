@@ -3,7 +3,7 @@ My startup page that is shown at every new tab.
 
 http://thalesfukuda.me/homepage/
 
-## Change search target
+## Changing search target
 The search field website target can be changed by pressing `TAB`. 
 
 
