@@ -8,5 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.9.3"
+  },
+  "scripts": {
+    "sass": "node-sass -w src/scss -o src/dist/css --recursive"
   }
 }
