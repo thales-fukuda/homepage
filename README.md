@@ -1,20 +1,11 @@
-# homepage
-This startup page is shown every time I open a new tab.
+# :house: homepage
+My startup page that is shown at every new tab.
 
 http://thalesfukuda.me/homepage/
 
-## Shortcuts
-The search field has some shortcuts to popular websites.
+## Change search target
+The search field website target can be changed by pressing `TAB`. 
 
-- y: YouTube
-- f: Facebook
-- r: Reddit
-- g: GitHub
-
-### Exemple
-> y:funny videos
-
-Will search "funny videos"on YouTube.
 
 ## to-do
-- Implement customization for the bottom links and the search shortcuts.
+- Implement customization page for the search field targets.
