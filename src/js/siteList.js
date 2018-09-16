@@ -12,16 +12,16 @@ let siteList = [
         postUrl: ""
     },
     {
-        name: "reddit",
-        url: "https://reddit.com/search?q=",
-        color: "#FF4501",
-        postUrl: ""
-    },
-    {
         name: "facebook",
         url: "https://facebook.com/search/str/",
         color: "#4267B2",
         postUrl: "/keywords_search"
+    },
+    {
+        name: "reddit",
+        url: "https://reddit.com/search?q=",
+        color: "#FF4501",
+        postUrl: ""
     },
     {
         name: "github",
