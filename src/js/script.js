@@ -11,7 +11,6 @@ let siteList = [
     }
 ]
 
-let body = document.getElementById('body');
 let searchInput = document.getElementById('search-input');
 let searchTarget = 0;
 
@@ -34,6 +33,10 @@ const handleChangeSearch = () => {
     searchInput.style.color = website.color;
 }
 
+const handleSubmit = () => {
+    window.location.href = siteList[searchTarget].url + searchInput.value;
+}
+
 const handleKeyPress = (e) => {
   
     if(e){
@@ -42,6 +45,8 @@ const handleKeyPress = (e) => {
                 e.preventDefault();
                 handleChangeSearch();
                 break;
+            case 13:
+                handleSubmit();
             default:
                 break;
         }
