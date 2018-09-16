@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/thales-fukuda/homepage",
   "author": "Thales <thales@hero99.com.br>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
 }
