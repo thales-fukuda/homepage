@@ -19,7 +19,6 @@ const handleChangeSearch = () => {
         searchTarget = 0;
         website = siteList[0];
     }
-
     searchName.style.color = website.color;
     searchName.innerText = website.name;
     searchInput.style.color = website.color;
@@ -30,7 +29,6 @@ const handleSubmit = () => {
 }
 
 const handleKeyPress = (e) => {
-  
     if(e){
         switch(e.keyCode){
             case 9:
@@ -44,7 +42,6 @@ const handleKeyPress = (e) => {
         }
     }
 }
-
 
 window.addEventListener('keydown', handleKeyPress, false);
 handleInit();
