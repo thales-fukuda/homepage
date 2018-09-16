@@ -30,7 +30,6 @@ const handleSubmit = () => {
 }
 
 const handleKeyPress = (e) => {
-  
     if(e){
         switch(e.keyCode){
             case 9:
@@ -44,7 +43,6 @@ const handleKeyPress = (e) => {
         }
     }
 }
-
 
 window.addEventListener('keydown', handleKeyPress, false);
 handleInit();
