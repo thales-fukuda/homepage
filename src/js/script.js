@@ -1,16 +1,3 @@
-let siteList = [
-    {
-        name: 'google',
-        url: 'https://www.google.com/search?q=',
-        color: '#34A853',
-    },
-    {
-        name: 'youtube',
-        url: 'https://www.youtube.com/results?search_query=',
-        color: '#FF0000',
-    }
-]
-
 let searchInput = document.getElementById('search-input');
 let searchTarget = 0;
 
@@ -34,7 +21,7 @@ const handleChangeSearch = () => {
 }
 
 const handleSubmit = () => {
-    window.location.href = siteList[searchTarget].url + searchInput.value;
+    window.location.href = siteList[searchTarget].url + searchInput.value + siteList[searchTarget].postUrl;
 }
 
 const handleKeyPress = (e) => {
