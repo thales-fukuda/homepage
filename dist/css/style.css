@@ -9,14 +9,16 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  min-width: 100vw; }
+  min-width: 100vw;
+  background-color: #dbdbdb; }
 
 .search-input {
   width: 800px;
   text-align: center;
   border: none;
   outline: none;
-  font-size: 42px; }
+  font-size: 42px;
+  background: transparent; }
 
 .search-name {
   position: absolute;
