@@ -25,7 +25,12 @@ const handleChangeSearch = () => {
 }
 
 const handleSubmit = () => {
-    window.location.href = siteList[searchTarget].url + searchInput.value + siteList[searchTarget].postUrl;
+    if(searchInput.value === '::settings' || searchInput.value ===  '::s'){
+        window.location.href = 'settings.html';
+    }
+    else{
+        window.location.href = siteList[searchTarget].url + searchInput.value + siteList[searchTarget].postUrl;
+    }
 }
 
 const handleKeyPress = (e) => {
