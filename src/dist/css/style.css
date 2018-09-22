@@ -40,15 +40,25 @@ body {
       text-transform: uppercase;
       letter-spacing: 1.3px;
       opacity: .6; }
+  .settings__website-wrapper {
+    width: 50%;
+    margin-top: 5vh;
+    align-self: center;
+    display: flex;
+    flex-direction: column; }
+  .settings__subtitle {
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    opacity: .4; }
   .settings__options {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 50px; }
     .settings__options__option {
+      width: 100%;
       display: flex;
-      justify-content: space-around;
-      width: 50%; }
+      justify-content: space-between; }
       .settings__options__option__name {
         text-transform: uppercase;
         opacity: .6; }
