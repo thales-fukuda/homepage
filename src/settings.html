@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="dist/css/style.css">
 </head>
-
+<!-- TODO:
+    - go back button 
+    - add site function 
+    - change color function -->
 <body>
     <div class="settings">
         <div class="settings__header">
@@ -15,14 +18,11 @@
         </div>
         <div class="settings__website-wrapper">
             <h2 class="settings__subtitle">websites</h2>
-            <div class="settings__options">
-                <div class="settings__options__option">
-                    <span class="settings__options__option__name">youtube</span>
-                    <input type="color" class="color-input">
-                </div>
+            <div class="settings__options" id="settings-options">
             </div>
         </div>
     </div>
+    <script src="js/siteList.js"></script>
     <script src="js/settings.js"></script>
 </body>
 </html>

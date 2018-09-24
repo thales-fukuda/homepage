@@ -58,7 +58,8 @@ body {
     .settings__options__option {
       width: 100%;
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      margin: 10px 0; }
       .settings__options__option__name {
         text-transform: uppercase;
         opacity: .6; }
